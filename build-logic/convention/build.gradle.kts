@@ -19,6 +19,8 @@ dependencies {
     implementation(libs.findLibrary("android-gradlePlugin").get())
     implementation(libs.findLibrary("kotlin-gradlePlugin").get())
     implementation(libs.findLibrary("compose-compiler-gradlePlugin").get())
+    implementation(libs.findLibrary("ksp-gradlePlugin").get())
+    implementation(libs.findLibrary("hilt-gradlePlugin").get())
 }
 
 gradlePlugin {
@@ -42,6 +44,10 @@ gradlePlugin {
         register("jvmLibrary") {
             id = "learningjc.jvm.library"
             implementationClass = "com.teikk.learningjc.JvmLibraryConventionPlugin"
+        }
+        register("hilt") {
+            id = "learningjc.hilt"
+            implementationClass = "com.teikk.learningjc.HiltConventionPlugin"
         }
     }
 }
