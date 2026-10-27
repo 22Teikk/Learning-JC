@@ -16,11 +16,12 @@ kotlin {
 val libs = extensions.getByType<VersionCatalogsExtension>().named("libs")
 
 dependencies {
-    implementation(libs.findLibrary("android-gradlePlugin").get())
-    implementation(libs.findLibrary("kotlin-gradlePlugin").get())
-    implementation(libs.findLibrary("compose-compiler-gradlePlugin").get())
-    implementation(libs.findLibrary("ksp-gradlePlugin").get())
-    implementation(libs.findLibrary("hilt-gradlePlugin").get())
+    compileOnly(libs.findLibrary("android-gradlePlugin").get())
+    compileOnly(libs.findLibrary("kotlin-gradlePlugin").get())
+    compileOnly(libs.findLibrary("compose-compiler-gradlePlugin").get())
+    compileOnly(libs.findLibrary("ksp-gradlePlugin").get())
+    compileOnly(libs.findLibrary("hilt-gradlePlugin").get())
+    compileOnly(libs.findLibrary("room-gradlePlugin").get())
 }
 
 gradlePlugin {
@@ -48,6 +49,10 @@ gradlePlugin {
         register("hilt") {
             id = "learningjc.hilt"
             implementationClass = "com.teikk.learningjc.HiltConventionPlugin"
+        }
+        register("androidRoom") {
+            id = "learningjc.android.room"
+            implementationClass = "com.teikk.learningjc.AndroidRoomConventionPlugin"
         }
     }
 }

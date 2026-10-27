@@ -2,6 +2,7 @@ plugins {
     alias(libs.plugins.learningjc.android.application)
     alias(libs.plugins.learningjc.android.application.compose)
     alias(libs.plugins.learningjc.hilt)
+    alias(libs.plugins.learningjc.android.room)
 }
 
 android {
