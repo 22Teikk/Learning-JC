@@ -59,5 +59,9 @@ gradlePlugin {
             id = "learningjc.android.lint"
             implementationClass = "com.teikk.learningjc.AndroidLintConventionPlugin"
         }
+        register("androidApplicationFlavors") {
+            id = "learningjc.android.application.flavors"
+            implementationClass = "com.teikk.learningjc.AndroidApplicationFlavorsConventionPlugin"
+        }
     }
 }

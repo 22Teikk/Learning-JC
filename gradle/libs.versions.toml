@@ -69,3 +69,4 @@ learningjc-jvm-library = { id = "learningjc.jvm.library" }
 learningjc-hilt = { id = "learningjc.hilt" }
 learningjc-android-room = { id = "learningjc.android.room" }
 learningjc-android-lint = { id = "learningjc.android.lint" }
+learningjc-android-application-flavors = { id = "learningjc.android.application.flavors" }

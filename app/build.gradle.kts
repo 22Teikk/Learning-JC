@@ -4,6 +4,7 @@ plugins {
     alias(libs.plugins.learningjc.hilt)
     alias(libs.plugins.learningjc.android.room)
     alias(libs.plugins.learningjc.android.lint)
+    alias(libs.plugins.learningjc.android.application.flavors)
 }
 
 android {
