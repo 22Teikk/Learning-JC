@@ -3,6 +3,7 @@ plugins {
     alias(libs.plugins.learningjc.android.application.compose)
     alias(libs.plugins.learningjc.hilt)
     alias(libs.plugins.learningjc.android.room)
+    alias(libs.plugins.learningjc.android.lint)
 }
 
 android {
@@ -19,7 +20,7 @@ android {
             isMinifyEnabled = false
             proguardFiles(
                 getDefaultProguardFile("proguard-android-optimize.txt"),
-                "proguard-rules.pro"
+                "proguard-rules.pro",
             )
         }
     }

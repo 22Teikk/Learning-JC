@@ -22,6 +22,7 @@ dependencies {
     compileOnly(libs.findLibrary("ksp-gradlePlugin").get())
     compileOnly(libs.findLibrary("hilt-gradlePlugin").get())
     compileOnly(libs.findLibrary("room-gradlePlugin").get())
+    compileOnly(libs.findLibrary("spotless-gradlePlugin").get())
 }
 
 gradlePlugin {
@@ -53,6 +54,10 @@ gradlePlugin {
         register("androidRoom") {
             id = "learningjc.android.room"
             implementationClass = "com.teikk.learningjc.AndroidRoomConventionPlugin"
+        }
+        register("androidLint") {
+            id = "learningjc.android.lint"
+            implementationClass = "com.teikk.learningjc.AndroidLintConventionPlugin"
         }
     }
 }

@@ -11,6 +11,8 @@ composeBom = "2026.02.01"
 ksp = "2.2.10-2.0.2"
 hilt = "2.60.1"
 room = "2.8.5"
+spotless = "8.10.4"
+ktlint = "1.5.0"
 
 [libraries]
 androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
@@ -35,6 +37,7 @@ compose-compiler-gradlePlugin = { group = "org.jetbrains.kotlin", name = "compos
 ksp-gradlePlugin = { group = "com.google.devtools.ksp", name = "symbol-processing-gradle-plugin", version.ref = "ksp" }
 hilt-gradlePlugin = { group = "com.google.dagger", name = "hilt-android-gradle-plugin", version.ref = "hilt" }
 room-gradlePlugin = { group = "androidx.room", name = "room-gradle-plugin", version.ref = "room" }
+spotless-gradlePlugin = { group = "com.diffplug.spotless", name = "spotless-plugin-gradle", version.ref = "spotless" }
 
 # Hilt dependencies
 hilt-android = { group = "com.google.dagger", name = "hilt-android", version.ref = "hilt" }
@@ -55,6 +58,7 @@ kotlin-jvm = { id = "org.jetbrains.kotlin.jvm", version.ref = "kotlin" }
 ksp = { id = "com.google.devtools.ksp", version.ref = "ksp" }
 hilt = { id = "com.google.dagger.hilt.android", version.ref = "hilt" }
 room = { id = "androidx.room", version.ref = "room" }
+spotless = { id = "com.diffplug.spotless", version.ref = "spotless" }
 
 # Project convention plugins
 learningjc-android-application = { id = "learningjc.android.application" }
@@ -64,3 +68,4 @@ learningjc-android-library-compose = { id = "learningjc.android.library.compose"
 learningjc-jvm-library = { id = "learningjc.jvm.library" }
 learningjc-hilt = { id = "learningjc.hilt" }
 learningjc-android-room = { id = "learningjc.android.room" }
+learningjc-android-lint = { id = "learningjc.android.lint" }
