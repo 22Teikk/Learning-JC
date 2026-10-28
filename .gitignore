@@ -13,4 +13,8 @@
 .externalNativeBuild
 .cxx
 local.properties
+
+#Ignore build folder
 build-logic/convention/build
+core/*/build
+feature/*/*/build

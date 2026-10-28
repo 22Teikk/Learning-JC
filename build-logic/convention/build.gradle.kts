@@ -63,5 +63,17 @@ gradlePlugin {
             id = "learningjc.android.application.flavors"
             implementationClass = "com.teikk.learningjc.AndroidApplicationFlavorsConventionPlugin"
         }
+        register("androidFeatureApi") {
+            id = "learningjc.android.feature.api"
+            implementationClass = "com.teikk.learningjc.AndroidFeatureApiConventionPlugin"
+        }
+        register("androidFeatureImpl") {
+            id = "learningjc.android.feature.impl"
+            implementationClass = "com.teikk.learningjc.AndroidFeatureImplConventionPlugin"
+        }
+        register("androidFeature") {
+            id = "learningjc.android.feature"
+            implementationClass = "com.teikk.learningjc.AndroidFeatureImplConventionPlugin"
+        }
     }
 }
