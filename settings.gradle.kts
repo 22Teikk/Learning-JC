@@ -25,9 +25,11 @@ dependencyResolutionManagement {
 
 rootProject.name = "LearningJC"
 include(":app")
+include(":core:common")
 include(":core:ui")
 include(":core:designsystem")
 include(":core:systemdesign")
 include(":core:navigation")
 include(":feature:home:api")
 include(":feature:home:impl")
+
