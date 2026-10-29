@@ -19,7 +19,8 @@ class AndroidFeatureImplConventionPlugin : Plugin<Project> {
                 }
 
                 add("implementation", libs.findLibrary("androidx-lifecycle-runtime-compose").get())
-                add("implementation", libs.findLibrary("androidx-navigation-compose").get())
+                add("implementation", libs.findLibrary("androidx-navigation3-runtime").get())
+                add("implementation", libs.findLibrary("androidx-navigation3-ui").get())
             }
         }
     }
