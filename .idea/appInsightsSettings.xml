@@ -8,10 +8,10 @@
             <InsightsFilterSettings>
               <option name="connection">
                 <ConnectionSetting>
-                  <option name="appId" value="PLACEHOLDER" />
-                  <option name="mobileSdkAppId" value="" />
-                  <option name="projectId" value="" />
-                  <option name="projectNumber" value="" />
+                  <option name="appId" value="com.teikk.learningjc.dev" />
+                  <option name="mobileSdkAppId" value="1:544834407722:android:609e03c7cfcc67a76ce253" />
+                  <option name="projectId" value="testfirebase-ccbeb" />
+                  <option name="projectNumber" value="544834407722" />
                 </ConnectionSetting>
               </option>
               <option name="signal" value="SIGNAL_UNSPECIFIED" />

@@ -23,6 +23,8 @@ dependencyResolutionManagement {
     }
 }
 
+enableFeaturePreview("TYPESAFE_PROJECT_ACCESSORS")
+
 rootProject.name = "LearningJC"
 include(":app")
 include(":core:common")
@@ -30,6 +32,10 @@ include(":core:ui")
 include(":core:designsystem")
 include(":core:systemdesign")
 include(":core:navigation")
+include(":core:network")
+include(":core:database")
+include(":core:datastore")
+include(":core:data")
 include(":feature:home:api")
 include(":feature:home:impl")
 
