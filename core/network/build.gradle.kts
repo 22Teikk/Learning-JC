@@ -1,7 +1,6 @@
 plugins {
     alias(libs.plugins.learningjc.android.library)
     alias(libs.plugins.learningjc.hilt)
-    alias(libs.plugins.google.services)
 }
 
 android {

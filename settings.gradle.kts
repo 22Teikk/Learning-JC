@@ -38,4 +38,6 @@ include(":core:datastore")
 include(":core:data")
 include(":feature:home:api")
 include(":feature:home:impl")
+include(":feature:intro:api")
+include(":feature:intro:impl")
 
