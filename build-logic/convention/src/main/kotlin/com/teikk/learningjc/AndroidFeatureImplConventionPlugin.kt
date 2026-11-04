@@ -13,10 +13,7 @@ class AndroidFeatureImplConventionPlugin : Plugin<Project> {
 
             dependencies {
                 add("implementation", project(":core:ui"))
-                val designSystem = findProject(":core:designsystem") ?: findProject(":core:systemdesign")
-                if (designSystem != null) {
-                    add("implementation", designSystem)
-                }
+                add("implementation", project(":core:designsystem"))
 
                 add("implementation", libs.findLibrary("androidx-lifecycle-runtime-compose").get())
                 add("implementation", libs.findLibrary("androidx-navigation3-runtime").get())

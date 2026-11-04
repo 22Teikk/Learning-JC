@@ -1,4 +1,4 @@
-package com.teikk.learningjc.ui.theme
+package com.teikk.learningjc.core.designsystem.theme
 
 import androidx.compose.ui.graphics.Color
 

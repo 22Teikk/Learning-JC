@@ -6,3 +6,7 @@ plugins {
 android {
     namespace = "com.teikk.learningjc.core.ui"
 }
+
+dependencies {
+    api(projects.core.designsystem)
+}
