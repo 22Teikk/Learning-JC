@@ -8,4 +8,5 @@ android {
 
 dependencies {
     implementation(projects.feature.intro.api)
+    implementation(projects.core.data)
 }

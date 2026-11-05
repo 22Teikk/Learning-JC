@@ -28,6 +28,7 @@ enableFeaturePreview("TYPESAFE_PROJECT_ACCESSORS")
 rootProject.name = "LearningJC"
 include(":app")
 include(":core:common")
+include(":core:model")
 include(":core:ui")
 include(":core:designsystem")
 include(":core:navigation")
