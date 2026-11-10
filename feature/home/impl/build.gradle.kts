@@ -7,5 +7,7 @@ android {
 }
 
 dependencies {
-    implementation(project(":feature:home:api"))
+    implementation(projects.feature.home.api)
+    implementation(projects.core.data)
+
 }
