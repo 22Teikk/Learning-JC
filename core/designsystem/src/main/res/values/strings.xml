@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="title">Welcome to Digital Store a Gateway to the Lasted Tech</string>
+    <string name="subTitle">Sign in to explore a wide range of cutting-edge digital products. Don\'t have an account yet? Register now and enjoy a seamless and secure shopping experience</string>
+    <string name="start">Let\'s Get Started</string>
+    <string name="signin">Already have an account? <font color="#005FEE">SignIn</font></string>
+</resources>
